@@ -5,6 +5,10 @@ public class Application {
     public static void main(String[] args) {
 
         /*
+        Used parameterized types <type> for Collections
+         */
+
+        /*
         ARRAY LIST
         faster for data retrieval, slower for data manipulation
         when expanding arraylist, elements must be copied into new array
@@ -34,6 +38,8 @@ public class Application {
         numbers.add(45);
         numbers.add(1000);
         numbers.add(109);
+        numbers.remove();
+        numbers.removeFirst();
 
         for(int number : numbers){
             System.out.println(number);
