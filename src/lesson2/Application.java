@@ -44,7 +44,6 @@ public class Application {
     public static void printElements(List someList){
         for(int i = 0; i < someList.size(); i++){
             System.out.println(someList.get(i));
-            someList.r
         }
     }
 }
