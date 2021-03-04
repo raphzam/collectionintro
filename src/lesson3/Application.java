@@ -30,5 +30,7 @@ public class Application {
         for (Animal value : animals) {
             System.out.println(value);
         }
+
+
     }
 }
